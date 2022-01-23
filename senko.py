@@ -4,7 +4,7 @@ from discord.ext import commands, tasks
 from datetime import datetime, timedelta
 import time
 load_dotenv()
-DISCORD_TOKEN = os.getenv("ODY4NTU5Njk4NzM4MTY3ODE4.YPxbQQ.RA2xIX7TI8B3kUoigaoYmxMCvNU")
+DISCORD_TOKEN = os.getenv("")
 bot = commands.Bot(command_prefix='!')
 dir = '/storage/emulated/0/MIUI/Gallery/cloud/owner/horny'
 
@@ -136,6 +136,6 @@ async def before():
     print("Finished waiting")
 
 called_once_a_day.start()
-bot.run('ODY4NTU5Njk4NzM4MTY3ODE4.YPxbQQ.RA2xIX7TI8B3kUoigaoYmxMCvNU')
+bot.run('')
 
 
